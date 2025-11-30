@@ -1,5 +1,5 @@
 {% set name = "cppbktree" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cppbktree-{{ version }}.tar.gz
-  sha256: e88addff2fe44e3194e2408e6beb008598a762d996de3b3e353d624ab0792c0c
+  sha256: c0585007737df6978269e266ebdfd8d27eef5db02a69d158115b9662437a3249
 
 build:
-  number: 4
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
